@@ -1,4 +1,5 @@
 #lab6 Ezekiel Pasion
+# editing
 def encode(key):
     encoded = ""
     for char in key:
@@ -32,14 +33,14 @@ while True:
         password = input("Please enter your password to encode: ")
         encoded = encode(password)
         print("Your password has been encoded and stored!")
-
+#partner
     elif option == 2:
         if password == "":
             print("No password stored!")
         else:
             password = decode(encoded)
             print ("The encoded password is " + encoded + ", and the original password is " + password + ".")
-
+#partner
     elif option == 3:
         break
     else:
